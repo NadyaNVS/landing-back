@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_yt_videos",
+  "info": {
+    "displayName": "YT Video"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "videoId": {
+      "type": "string"
+    },
+    "videoURL": {
+      "type": "string"
+    }
+  }
+}

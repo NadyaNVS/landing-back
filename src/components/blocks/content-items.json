@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_blocks_content_items",
+  "info": {
+    "displayName": "Content Items",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageRight": {
+      "type": "boolean"
+    },
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.item"
+    }
+  }
+}
